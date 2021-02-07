@@ -1,0 +1,54 @@
+html {
+    font-size: 62.5%;
+}
+
+#title {
+    color: orangered;
+}
+
+#recipe {
+    color: dodgerblue;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.recipe-picture {
+    width: 100%;
+    height: 70vh;
+    object-fit: fill;
+    border: 4px solid orchid;
+}
+
+@media screen and (min-width: 650px) {
+    .recipe-picture {
+        height: 80vh;
+        width: 90%;
+    }
+}
+
+#description {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.instructions, p, li {
+    font-size: 1.5rem;
+}
+
+

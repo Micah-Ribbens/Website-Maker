@@ -1,0 +1,41 @@
+/* Start Table */
+h2 {
+  font-size: 30px;
+}
+th, tfoot {
+  background-color: #427fef;
+  color: white;
+}
+
+table, tr{
+  background-color:  lightblue;
+  border-color: lightblue;
+  border-right: 0;
+  border-left: 0;
+  border-collapse: collapse;
+  border: 1px solid red;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+tfoot {
+  text-align: left
+}
+
+th {
+  padding-right: 10px
+}
+/* End Table */
+
+/* Start Square */
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  box-shadow: 5px 5px lightgray;
+  z-index: 100px;
+  border-radius: 20px;
+}
+/* End Square */
